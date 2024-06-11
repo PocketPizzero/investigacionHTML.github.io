@@ -1,0 +1,85 @@
+/*encabezado*/
+header {
+    margin: 0;
+    width: auto;
+    height: auto;
+    padding: 10px 50px;
+    background-color: #4f6d7a;
+    color: #e8dab2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titulo{
+    font-size: 25px;
+}
+.navegacion ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.navegacion a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #e8dab2;
+}
+/*cuerpo*/
+body{
+    margin: 0;
+    width: 100%;
+    height:  auto;
+    background-color: #eaeaea;
+    color: #4f6d7a;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    padding: 10px 50px;
+}
+body h2{
+    text-align: center;
+}
+.principios_usabilidad, .principios_accesibilidad{
+    background-color: #e8dab2;
+}
+.principios_usabilidad ol li
+ {
+    display: flex;
+    justify-content: space-between;
+}
+.principios_usabilidad ol li h3{
+    padding-top: 60px;
+}
+.principios_usabilidad ol li figure img{
+    border: solid;
+    border-color: #dd6e42;
+    border-width: 26px;
+}
+
+.principios_accesibilidad ol li
+ {
+    display: flex;
+    justify-content: space-between;
+}
+.principios_accesibilidad ol li h3{
+    padding-top: 60px;
+}
+.principios_accesibilidad ol li figure img{
+    border: solid;
+    border-color: #dd6e42;
+    border-width: 26px;
+}
+
+
+/*pie*/
+footer {
+    display: flex;
+    gap: 50px;
+    width: auto;
+    height:  auto;
+    padding: 10px 50px;
+    background-color: #4f6d7a;
+    color: #e8dab2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

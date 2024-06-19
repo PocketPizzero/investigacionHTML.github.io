@@ -1,0 +1,123 @@
+/*encabezado*/
+header {
+    margin: 0;
+    width: auto;
+    height: auto;
+    padding: 10px 50px;
+    background-color: #4f6d7a;
+    color: #e8dab2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titulo{
+    font-size: 25px;
+}
+.navegacion ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.navegacion a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #e8dab2;
+}
+/*cuerpo*/
+body{
+    margin: 0;
+    width: 100%;
+    height:  auto;
+    background-color: #eaeaea;
+    color: #4f6d7a;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+aside{
+    background-color: #4f6d7a;
+    position: fixed;
+    padding-right: 0.5em;
+    
+}
+aside ul, aside li, aside a{
+    color: #e8dab2;
+    list-style: none;
+    padding-bottom: 2em;
+    text-decoration: none;
+}
+main{
+    padding-left: 7em;
+}
+section{
+    padding: 10px 50px;
+}
+body h2{
+    text-align: center;
+}
+.principios_usabilidad, .principios_accesibilidad{
+    background-color: #e8dab2;
+}
+.principios_usabilidad ol li
+ {
+    display: flex;
+    justify-content: space-between;
+}
+.principios_usabilidad ol li h3{
+    padding-top: 60px;
+}
+.principios_usabilidad ol li figure img{
+    border: solid;
+    border-color: #dd6e42;
+    border-width: 26px;
+}
+
+.principios_accesibilidad ol li
+ {
+    display: flex;
+    justify-content: space-between;
+}
+.principios_accesibilidad ol li h3{
+    padding-top: 60px;
+}
+.principios_accesibilidad ol li figure img{
+    border: solid;
+    border-color: #dd6e42;
+    border-width: 26px;
+}
+#Etapas, #Casos{
+    background-color: #4f6d7a;
+    color: #eaeaea;
+}
+#Etapas h2, #Etapas h3, #Casos h2, #Casos h3{
+    color: #e8dab2;
+}
+#Casos{
+    padding: 2em 10em;
+    text-align: center;
+}
+#Casos img{
+    border: solid;
+    border-color: #dd6e42;
+    border-width: 0.5em;
+    width: 35%;
+    height: 35%;
+}
+#QueEsDCU figure{
+    text-align: center;
+}
+#QueEsDCU img{
+    width: 60%;
+    height: 60%;
+}
+/*pie*/
+footer {
+    display: flex;
+    gap: 50px;
+    width: auto;
+    height:  auto;
+    padding: 10px 50px;
+    background-color: #4f6d7a;
+    color: #e8dab2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
